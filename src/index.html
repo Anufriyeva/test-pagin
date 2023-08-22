@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS final HW</title>
+    <link rel="stylesheet" href="./styles.css" />    
+  </head>
+  <body>
+
+    <div class="gallery-container">
+      <form class="search-form" id="search-form">
+        <input type="text" name="searchQuery" autocomplete="off" placeholder="Search images..." />
+        <button type="submit">Search</button>
+      </form>
+    
+      <div class="gallery">
+        <!-- Картки зображень -->
+      </div>
+      <!-- <button class="load-more" style="display: none">Load more</button> -->
+      <div class="pagination">
+        <button class="prev-page" disabled>Prev</button>
+        <button class="page-number current-page">1</button>
+        <button class="next-page">Next</button>
+      </div>
+    </div>
+
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
